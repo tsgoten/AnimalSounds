@@ -13,6 +13,10 @@
 		60F69B312200C145001214C5 /* AnimalSounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60F69B2F2200C145001214C5 /* AnimalSounds.xcdatamodeld */; };
 		60F69B332200C148001214C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F69B322200C148001214C5 /* Assets.xcassets */; };
 		60F69B362200C148001214C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F69B342200C148001214C5 /* LaunchScreen.storyboard */; };
+		8BC722042202B0BB00B98E6E /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC722032202B0BB00B98E6E /* SimpleSound.swift */; };
+		8BC722082202B15B00B98E6E /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8BC722052202B15A00B98E6E /* woof.m4a */; };
+		8BC722092202B15B00B98E6E /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8BC722062202B15A00B98E6E /* meow.m4a */; };
+		8BC7220A2202B15B00B98E6E /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8BC722072202B15A00B98E6E /* moo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		60F69B322200C148001214C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60F69B352200C148001214C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60F69B372200C148001214C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC722032202B0BB00B98E6E /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleSound.swift; path = "../../Intro to App Development Curriculum – Xcode 10/18_AdaptiveUserInterfaces/Resources/AnimalSounds/SimpleSound.swift"; sourceTree = "<group>"; };
+		8BC722052202B15A00B98E6E /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		8BC722062202B15A00B98E6E /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		8BC722072202B15A00B98E6E /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,12 @@
 				60F69B282200C145001214C5 /* AppDelegate.swift */,
 				60F69B2A2200C145001214C5 /* ViewController.swift */,
 				60F69B2C2200C145001214C5 /* Main.storyboard */,
+				8BC722032202B0BB00B98E6E /* SimpleSound.swift */,
 				60F69B322200C148001214C5 /* Assets.xcassets */,
 				60F69B342200C148001214C5 /* LaunchScreen.storyboard */,
+				8BC722062202B15A00B98E6E /* meow.m4a */,
+				8BC722072202B15A00B98E6E /* moo.m4a */,
+				8BC722052202B15A00B98E6E /* woof.m4a */,
 				60F69B372200C148001214C5 /* Info.plist */,
 				60F69B2F2200C145001214C5 /* AnimalSounds.xcdatamodeld */,
 			);
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC7220A2202B15B00B98E6E /* moo.m4a in Resources */,
 				60F69B362200C148001214C5 /* LaunchScreen.storyboard in Resources */,
 				60F69B332200C148001214C5 /* Assets.xcassets in Resources */,
 				60F69B2E2200C145001214C5 /* Main.storyboard in Resources */,
+				8BC722092202B15B00B98E6E /* meow.m4a in Resources */,
+				8BC722082202B15B00B98E6E /* woof.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				60F69B2B2200C145001214C5 /* ViewController.swift in Sources */,
 				60F69B312200C145001214C5 /* AnimalSounds.xcdatamodeld in Sources */,
 				60F69B292200C145001214C5 /* AppDelegate.swift in Sources */,
+				8BC722042202B0BB00B98E6E /* SimpleSound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var animalSoundsLabel: UILabel!
     
+    private let meowSound = SimpleSound(named: "meow")
+    private let woofSound = SimpleSound(named: "woof")
+    private let mooSound = SimpleSound(named: "moo")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +23,15 @@ class ViewController: UIViewController {
 
     @IBAction func catButtonTapped(_ sender: UIButton) {
         animalSoundsLabel.text = "Meow!"
+        meowSound.play()
     }
     @IBAction func dogButtonTapped(_ sender: UIButton) {
-        animalSoundsLabel.text = "Bark!"
+        animalSoundsLabel.text = "Woof!"
+        woofSound.play()
     }
     @IBAction func cowButtonTapped(_ sender: UIButton) {
         animalSoundsLabel.text = "Moo!"
+        mooSound.play()
     }
     
     
